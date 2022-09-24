@@ -1,0 +1,14 @@
+
+<div class="block">
+    <div>
+        <h1>Plan your day!</h1>
+        <h2>User: Ivan Ivanov. Count of tasks {{countTasks}}</h2>
+    </div>
+    <hr>
+    <form>
+        <input type="text"  [(ngModel)]="task" name="task" id="task" #text class="input" placeholder="Enter task" required > 
+        <input type="submit" id="add" value="Add" (click)="createTask(text.value)">
+    </form>
+
+    <app-task [inputTask]="task" [tasks]="tasks" [count]="countTasks" (countTasks)="getCount($event)"></app-task>
+</div>    

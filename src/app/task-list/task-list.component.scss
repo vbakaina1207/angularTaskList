@@ -1,0 +1,53 @@
+
+.block{
+    width: 80%;
+    margin: 50px auto;
+}
+
+form{    
+    display: flex;
+    justify-content: space-between;    
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+input[type="text"]{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray; 
+    margin: 20px 0;
+    padding-left: 15px;
+}
+
+
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px lightblue;
+}
+
+input[type="submit"]{
+    width: 16%;
+    height: 35px;    
+    border-radius: 5px;    
+    color: rgb(250, 245, 245);
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: lightgray; /* Цвет линии для остальных браузеров */
+    background-color: lightgray; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+
+
+#add:hover{
+    background-color: rgb(32, 88, 60);
+    color:white;
+}
+
+#add{
+    background-color: rgb(51, 143, 48);
+    border: 1px solid rgb(109, 158, 134);
+}

@@ -1,0 +1,93 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 8px auto;
+}
+
+th{
+    font-weight: bold;
+}
+
+tr th{
+    height: 50px;
+}
+
+td, th {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr td{
+    height: 70px;   
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+.edit,
+.save{
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.save{
+    background-color: green;
+    color: white;
+}
+
+.save:hover{
+    background-color: darkgreen;
+}
+
+.edit:hover{
+    background-color: rgba(255, 208, 0, 0.966);
+}
+
+.delete{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(235, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+
+.delete:hover{
+    background-color: darkred;
+}
+
+.delete:disabled{
+    background-color: rgb(182, 70, 70);
+}
+
+.edit-task{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray; 
+    margin: 20px 0;
+    padding-left: 15px;
+}
+
+
+.edit-task:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px lightblue;
+}
+
+
